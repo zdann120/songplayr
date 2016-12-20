@@ -23,6 +23,7 @@ gem 'high_voltage'
 gem 'omniauth'
 gem 'omniauth-github'
 gem 'slim-rails'
+gem 'dotenv-rails'
 group :development do
   gem 'better_errors'
   gem 'hub', :require=>nil
@@ -34,3 +35,6 @@ end
 group :production do
   gem 'pg'
 end
+
+gem 'omniauth-spotify'
+gem 'simple_form'
